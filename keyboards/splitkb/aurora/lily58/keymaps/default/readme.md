@@ -1,6 +1,27 @@
 # Aurora Lily58's Default Keymap
 _This keymap is a copy of the [Lily58 default keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/lily58/keymaps/default), with slight modifications._
 
+
+
+# My Own Comments:
+
+
+`RALT(KC_Q) for ä,Ä`
+
+`RALT(KC_P) for ö,Ö`
+
+`RALT(KC_Y) for ü,Ü`
+
+
+
+
+
+
+
+
+
+
+
 A simple default keymap for the Aurora Lily58
 =============================================
 
