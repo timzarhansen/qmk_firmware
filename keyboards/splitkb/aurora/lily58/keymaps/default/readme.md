@@ -13,9 +13,9 @@ _This keymap is a copy of the [Lily58 default keymap](https://github.com/qmk/qmk
 `RALT(KC_Y) for ü,Ü`
 
 
+https://docs.qmk.fm/keycodes keymap
 
-
-
+`qmk compile -e CONVERT_TO=promicro_rp2040 -kb splitkb/aurora/lily58/rev1 -km default `
 
 
 
