@@ -14,4 +14,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 DEFAULT_FOLDER = splitkb/aurora/lily58/rev1
-MOUSEKEY_ENABLE = yes
+# MOUSEKEY_ENABLE = yes
+# UNICODE_COMMON = yes
+# UNICODEMAP_ENABLE = yes

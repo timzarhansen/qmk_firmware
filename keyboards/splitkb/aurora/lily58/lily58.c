@@ -15,6 +15,7 @@
  */
 
 #include "quantum.h"
+#include QMK_KEYBOARD_H
 
 // The first four layers gets a name for readability, which is then used in the OLED below.
 enum layers {
@@ -23,6 +24,8 @@ enum layers {
   _RAISE,
   _ADJUST
 };
+
+
 
 #ifdef OLED_ENABLE
 // NOTE: Most of the OLED code was originally written by Soundmonster for the Corne,
@@ -296,16 +299,16 @@ bool encoder_update_kb(uint8_t index, bool clockwise) {
     if (index == 0) {
         // Volume control
         if (clockwise) {
-            tap_code(KC_WH_U);
+            tap_code(KC_KB_VOLUME_UP);
         } else {
-            tap_code(KC_WH_D);
+            tap_code(KC_KB_VOLUME_DOWN);
         }
     } else if (index == 1) {
         // Page up/Page down
         if (clockwise) {
-            tap_code(KC_WH_U);
+            tap_code(KC_KB_VOLUME_UP);
         } else {
-            tap_code(KC_WH_D);
+            tap_code(KC_KB_VOLUME_DOWN);
         }
     }
     return true;
