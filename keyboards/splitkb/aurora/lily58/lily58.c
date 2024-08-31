@@ -16,7 +16,7 @@
 
 #include "quantum.h"
 #include QMK_KEYBOARD_H
-
+#include "gpio.h"
 // The first four layers gets a name for readability, which is then used in the OLED below.
 enum layers {
   _DEFAULT,
@@ -319,7 +319,10 @@ bool encoder_update_kb(uint8_t index, bool clockwise) {
 void keyboard_pre_init_user(void) {
   // Set our LED pin as output
   setPinOutput(24);
+//  gpio_set_pin_output_open_drain(24);
   // Turn the LED off
   // (Due to technical reasons, high is off and low is on)
-  writePinHigh(24);
+//  writePinHigh(24);
+  writePin(24, 1);
+//  gpio_write_pin(24, 1);
 }
