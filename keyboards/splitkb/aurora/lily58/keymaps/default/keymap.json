@@ -7,14 +7,14 @@
             {
                 "action": "down",
                 "keycodes": [
-                    "KC_RIGHT_ALT"
+                    "RALT"
                 ]
             },
             "u",
             {
                 "action": "up",
                 "keycodes": [
-                    "KC_RIGHT_ALT"
+                    "RALT"
                 ]
             },
             "u"
@@ -23,14 +23,14 @@
             {
                 "action": "down",
                 "keycodes": [
-                    "KC_RIGHT_ALT"
+                    "RALT"
                 ]
             },
             "u",
             {
                 "action": "up",
                 "keycodes": [
-                    "KC_RIGHT_ALT"
+                    "RALT"
                 ]
             },
             "a"
@@ -39,14 +39,14 @@
             {
                 "action": "down",
                 "keycodes": [
-                    "KC_RIGHT_ALT"
+                    "RALT"
                 ]
             },
             "u",
             {
                 "action": "up",
                 "keycodes": [
-                    "KC_RIGHT_ALT"
+                    "RALT"
                 ]
             },
             "o"
