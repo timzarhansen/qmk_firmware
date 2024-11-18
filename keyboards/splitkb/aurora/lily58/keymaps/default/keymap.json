@@ -4,21 +4,51 @@
     "version": 1,
     "macros": [
         [
-            {"action":"down", "keycodes": ["KC_RIGHT_ALT"]},
+            {
+                "action": "down",
+                "keycodes": [
+                    "KC_RIGHT_ALT"
+                ]
+            },
             "u",
-            {"action": "up","keycodes": ["KC_RIGHT_ALT"]},
+            {
+                "action": "up",
+                "keycodes": [
+                    "KC_RIGHT_ALT"
+                ]
+            },
             "u"
         ],
         [
-            {"action":"down", "keycodes": ["KC_RIGHT_ALT"]},
+            {
+                "action": "down",
+                "keycodes": [
+                    "KC_RIGHT_ALT"
+                ]
+            },
             "u",
-            {"action": "up","keycodes": ["KC_RIGHT_ALT"]},
+            {
+                "action": "up",
+                "keycodes": [
+                    "KC_RIGHT_ALT"
+                ]
+            },
             "a"
         ],
         [
-            {"action":"down", "keycodes": ["KC_RIGHT_ALT"]},
+            {
+                "action": "down",
+                "keycodes": [
+                    "KC_RIGHT_ALT"
+                ]
+            },
             "u",
-            {"action": "up","keycodes": ["KC_RIGHT_ALT"]},
+            {
+                "action": "up",
+                "keycodes": [
+                    "KC_RIGHT_ALT"
+                ]
+            },
             "o"
         ]
     ],
